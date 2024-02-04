@@ -37,7 +37,7 @@ const Skills = () => {
   return (
     <div className='w-screen h-screen p-3 md:h-[100vh]' id='skills'>
       <div className='font-bold text-4xl text-center mt-[5rem]'>Skills</div>
-      <Canvas style={{ position: 'fixed', top: 0, left: 0, zIndex: -1, width: '100%', height: '100%' }}>
+      <Canvas style={{ position: 'fixed', top: 0, left: 0, zIndex: -1, width: '100%', height: '100%'}}>
         <ambientLight />
         <pointLight position={[0, 0, 5]} />
         <Stars />

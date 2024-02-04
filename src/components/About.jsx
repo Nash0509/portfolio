@@ -20,7 +20,7 @@ const defaultOptions = {
 
 const About = () => {
   return (
-    <div className='' id='projects'>
+    <div id='projects'>
     <div className='text-center text-3xl font-bold p-10'>My projects</div>
       <VerticalTimeline visible={true} animate={false} lineColor='black'>
         <VerticalTimelineElement
@@ -40,7 +40,7 @@ const About = () => {
         <VerticalTimelineElement
           contentStyle={{ background: '#000', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011"
+          date="May-June"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<FaProjectDiagram/>}
         >
@@ -53,7 +53,7 @@ const About = () => {
         <VerticalTimelineElement
           contentStyle={{ background: '#000', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2009-2010"
+          date="July-Aug"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<FaShoppingCart />}
         >
@@ -66,7 +66,7 @@ const About = () => {
         <VerticalTimelineElement
           contentStyle={{ background: '#000', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2009-2010"
+          date="Aug-Sept"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<FaBook />}
         >
@@ -79,7 +79,7 @@ const About = () => {
         <VerticalTimelineElement
           contentStyle={{ background: '#000', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2009-2010"
+          date="Oct-Nov"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<BiChat/>}
         >
